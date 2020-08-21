@@ -6,3 +6,5 @@ Import the correct function for your system to command line or profile to use bo
 
 Usage:
 Just like the usual ping. But boop.
+
+Inspired by @jessica_schalz: https://twitter.com/jessica_schalz/status/1292973216634372097
