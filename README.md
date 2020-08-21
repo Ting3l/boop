@@ -6,6 +6,7 @@ Import the code to your profile.
 ##### Powershell
 `"notepad $profile"` -> paste code from Boop.ps1
 
+
 ### Usage:
 Just like the usual ping. But boop.
 
@@ -23,7 +24,7 @@ Options:
                    To stop - type Control-C.
     -a             Resolve addresses to hostnames.
     -n count       Number of echo requests to send.
-    -l size        Send buffer size.\
+    -l size        Send buffer size.
     -f             Set Don't Fragment flag in packet (IPv4-only).
     -i TTL         Time To Live.
     -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
@@ -45,6 +46,7 @@ Options:
     -6             Force using IPv6.
 ```
 
+
 ### Example:
 ```
 PS C:\> boop 127.0.0.1
@@ -60,5 +62,6 @@ Boop statistics for 127.0.0.1:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
+
 
 Inspired by @jessica_schalz: https://twitter.com/jessica_schalz/status/1292973216634372097
