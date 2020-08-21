@@ -1,13 +1,15 @@
 # boop
-Get to know the look&amp;feel of renaming ping to boop!\
+###### Get to know the look&amp;feel of renaming ping to boop!\
 \
-Install: \
+### Install: \
 Import the code to your profile.\
-Powershell -> "notepad $profile" -> paste code from Boop.ps1\
+##### Powershell
+`"notepad $profile"` -> paste code from Boop.ps1\
 \
-Usage:\
+### Usage:\
 Just like the usual ping. But boop.\
 \
+```
 PS C:\> boop\
 \
 Usage: boop [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
@@ -41,8 +43,10 @@ Options:\
     -p             Boop a Hyper-V Network Virtualization provider address.\
     -4             Force using IPv4.\
     -6             Force using IPv6.\
+```
 \
 Example:\
+```
 PS C:\> boop 127.0.0.1\
 \
 Booping 127.0.0.1 with 32 bytes of data:\
@@ -55,5 +59,6 @@ Boop statistics for 127.0.0.1:\
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\
 Approximate round trip times in milli-seconds:\
     Minimum = 0ms, Maximum = 0ms, Average = 0ms\
+```
 \
 Inspired by @jessica_schalz: https://twitter.com/jessica_schalz/status/1292973216634372097
