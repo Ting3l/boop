@@ -10,9 +10,9 @@ Just like the usual ping. But boop.\
 \
 PS C:\> boop\
 \
-Usage: boop [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]\
-            [-r count] [-s count] [[-j host-list] | [-k host-list]]\
-            [-w timeout] [-RH] [-src srcaddr] [-c compartment] [-p]\
+Usage: boop [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-RH] [-src srcaddr] [-c compartment] [-p]
             [-4] [-6] target_name\
 \
 Options:\
